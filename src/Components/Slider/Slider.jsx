@@ -9,6 +9,8 @@ import RealmeC65Mobile from '../../assets/c65Mob.png';
 import RealmeC61 from '../../assets/realmeC61.png';
 import Realme67Mobile from '../../assets/c67Mob.png';
 import Slider13g from '../../assets/slider13g.png';
+import Note60 from '../../assets/note60Mob.png';
+import c63 from '../../assets/c63Mob.png';
 
 function Slider() {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
@@ -74,7 +76,7 @@ function Slider() {
                 <Carousel.Item style={{ height: '100%' }}>
                     <img
                         className="d-block w-100"
-                        src={isMobile ? Realme67Mobile : RealmeC51}
+                        src={isMobile ? c63 : RealmeC51}
                         alt="Fourth slide"
                         style={{
                             objectFit: 'cover',
@@ -86,7 +88,7 @@ function Slider() {
                 <Carousel.Item style={{ height: '100%' }}>
                     <img
                         className="d-block w-100"
-                        src={isMobile ? Realme67Mobile : Slider13g}
+                        src={isMobile ? Note60 : Slider13g}
                         alt="Fourth slide"
                         style={{
                             objectFit: 'cover',
