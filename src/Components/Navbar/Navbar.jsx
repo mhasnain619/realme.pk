@@ -26,9 +26,9 @@ function OffcanvasExample() {
                             <Nav.Link className="navlinks" href="#features">Accessories</Nav.Link>
                         </Nav>
                         <Nav className="ms-auto">
-                            <Nav.Link className="" href="#profile">Brand</Nav.Link>
-                            <Nav.Link className="" href="#settings">Support</Nav.Link>
-                            <Nav.Link className="" href="#settings">Community</Nav.Link>
+                            <Nav.Link className="navlinks" href="#profile">Brand</Nav.Link>
+                            <Nav.Link className="navlinks" href="#settings">Support</Nav.Link>
+                            <Nav.Link className="navlinks" href="#settings">Community</Nav.Link>
                         </Nav>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

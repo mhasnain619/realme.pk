@@ -14,13 +14,18 @@
 .navlinks {
     font-size: 14px !important;
     font-weight: 500 !important;
-    /* color: #333; */
     margin-left: 10px;
-    /* text-transform: capitalize; */
     transition: color 0.3s ease-in-out;
 }
 
 .navlinks:hover {
     color: #007bff;
     text-decoration: none;
+}
+
+@media (min-width: 992px) {
+    .navlinks {
+
+        margin-left: 0px;
+    }
 }
