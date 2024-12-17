@@ -2,6 +2,18 @@
     max-width: 80% !important;
 }
 
+.product-image {
+    transition: transform 0.2s ease-in-out,
+        box-shadow 0.3s ease-in-out;
+}
+
+.product-image:hover {
+    transform: scale(1.02);
+    /* Slightly increase the size */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+    /* Add a subtle shadow */
+}
+
 @media (min-width: 992px) {
     .price-margin-lg {
         margin-top: 100px;

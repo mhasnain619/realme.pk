@@ -132,7 +132,7 @@ function ProductCards() {
                                     <img
                                         src={card.image}
                                         alt={card.title}
-                                        className="img-fluid"
+                                        className="img-fluid product-image"
                                         style={{ borderRadius: '10px' }}
                                     />
                                 </Col>
