@@ -6,7 +6,7 @@ import './Navbar.css';
 
 function OffcanvasExample() {
     return (
-        <Navbar expand="lg" className="bg-body-light sticky-navbar">
+        <Navbar style={{ position: 'fixed', top: '0', width: '100%' }} expand="lg" className="bg-body-light sticky-navbar">
             <Container fluid>
                 <Navbar.Brand className="logo" href="#">realme</Navbar.Brand>
                 <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
