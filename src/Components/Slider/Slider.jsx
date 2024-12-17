@@ -8,7 +8,7 @@ import RealmeC51 from '../../assets/SliderC51.png';
 import RealmeC65Mobile from '../../assets/c65Mob.png';
 import RealmeC61 from '../../assets/realmeC61.png';
 import Realme67Mobile from '../../assets/c67Mob.png';
-import Slider13g from '../../assets/Slider13g.png';
+import Slider13g from '../../assets/slider13g.png';
 
 function Slider() {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
