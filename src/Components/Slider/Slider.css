@@ -1,0 +1,9 @@
+.mainContainer {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainContainer {
+        height: 85vh;
+    }
+}

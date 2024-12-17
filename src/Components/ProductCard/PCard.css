@@ -1,0 +1,9 @@
+.img-fluid {
+    max-width: 80% !important;
+}
+
+@media (min-width: 992px) {
+    .price-margin-lg {
+        margin-top: 100px;
+    }
+}
