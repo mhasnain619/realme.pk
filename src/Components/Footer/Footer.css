@@ -1,0 +1,18 @@
+.footerMainDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div1 {
+    display: flex;
+    gap: 250px;
+}
+
+@media (max-width: 600px) {
+    .div1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+}
