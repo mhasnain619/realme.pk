@@ -7,6 +7,10 @@
         box-shadow 0.3s ease-in-out;
 }
 
+.price-margin-lg {
+    margin-top: 50px !important;
+}
+
 .product-image:hover {
     transform: scale(1.02);
     /* Slightly increase the size */
